@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1SmrDREdYLixS6K3QrsG-c5vTcUFJb5dm'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-3MwqldC93BxxqJKmoGNvzVyJ0sUz0Tq'
+export_file_name = 'densenet121.pkl'
 
 classes = ['bumper_dent', 'bumper_scratch', 'door_dent', 'door_scratch', 'glass_shatter', 'head_lamp', 'tail_lamp', 'unknown']
 path = Path(__file__).parent
